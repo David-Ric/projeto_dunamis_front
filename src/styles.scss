@@ -1,2 +1,55 @@
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --dark-grey: #333333;
+  --light-grey: #808080;
+  --light-text: #e5e5e5;
+  --medium-text: #939393;
+  --yellow: #FFB612;
+  --red: #dc0a17;
+  --green: #2FC022;
+}
+
+* {
+  font-family: 'Titillium_Web';
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #333333;
+}
+@font-face {
+  font-family: 'Titillium_Web';
+  src: url('assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Titillium_Web';
+  src: url('assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Titillium_Web';
+  src: url('assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+  @font-face {
+  font-family: 'Gotham';
+  src: url('assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+
