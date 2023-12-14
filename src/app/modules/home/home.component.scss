@@ -23,11 +23,15 @@
     flex-direction: column;
     align-items: center;
     align-items: center;
-    padding:50px 100px;
+    padding:30px 40px;
+    @media (max-width: 767px) {
+      width: 100vw;
+      padding:30px 20px;
+    }
 
     .nav-logo{
-      width: 300px;
-      height: 60px;
+      width: 70%;
+      height: 70px;
       margin: auto;
       margin-top: 70px;
       background-image: url('../../../assets/img/dunamis_log01.png');
@@ -37,6 +41,21 @@
         background-image: url('../../../assets/img/dunamis_logo02.png');
       }
 
+    }
+    h2{
+      text-align: center;
+      margin-top: 10px;
+      letter-spacing: 3px;
+      @media (max-width: 767px) {
+        color:#e7e5e5;
+      }
+
+    }
+    h4{
+      margin-top: 30px;
+      @media (max-width: 767px) {
+        color:#e7e5e5;
+      }
     }
     .div-inputs{
       width: 100%;
@@ -51,7 +70,27 @@
         font-size: 20px;
         padding: 5px;
         margin: auto;
-        margin-top: 60px;
+        margin-top: 40px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .btn-Login{
+        width: 90%;
+        font-size: 20px;
+        font-weight: bold;
+        padding:6px;
+        margin-top: 40px;
+        cursor: pointer;
+        border:none;
+        border-radius: 50px;
+        background: linear-gradient(0deg, #ffd700 0%, #ffff00 100%);
+        @media (max-width: 767px) {
+          background-color: #ffa500;
+          background: #ffa500 ;
+        }
+      }
+      .btn-entrar:hover{
+        background:  linear-gradient(0deg, #ffa500 0%, #ffff00 100%);
       }
     }
   }

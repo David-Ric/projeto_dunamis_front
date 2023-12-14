@@ -1,0 +1,132 @@
+.containerbar {
+  width: 100%;
+  top: 0;
+  min-height: 60.97 !important;
+  padding: 0px 220px;
+  background-color: #144F9E;
+  align-items: center;
+  justify-content:space-between;
+  position: fixed;
+  display: flex;
+  z-index: 800;
+  padding-bottom: 0px;
+  .nav-menu{
+    background-color: #144F9E;
+  }
+  .nav-logo{
+    background-image: url('../../../../assets/img/dunamis_logo02.png');
+    background-repeat: no-repeat, repeat;
+    background-size: 100%;
+    width: 186.31px;
+    height: 56.98px;
+    margin-top: 10px;
+    transition: width 1s ease, height 1s ease;
+    @media (max-width: 767px) {
+      width: 80.42px;
+      height: 30px;
+     // display: none;
+    }
+  }
+  .row{
+    display: flex;
+    justify-content:space-between;
+  }
+
+  .menu{
+    @media (max-width: 767px) {
+
+    }
+    .button-close{
+      border: 3px solid #FFF;
+      width: 35px;
+      height: 35px;
+      font-weight: bold;
+      font-size: 19px !important;
+      margin: 10px;
+      position: absolute !important;
+      text-align: center;
+      justify-content: center;
+      border-radius: 50%;
+      padding: 0px !important;
+      right: 0;
+      display: none;
+      color: #fff;
+
+    }
+  }
+
+  @media (max-width: 767px) {
+    padding: 10px;
+   // padding-top: 10px;
+  //  padding-bottom: 10px;
+    //flex-direction: column;
+    background-color: #144F9E;
+    margin-top: 0px;
+  }
+
+}
+
+
+.menu {
+  @media (max-width: 767px) {
+   width: 100%;
+   top: 200px !important;
+   position: fixed;
+   max-height: 300;
+ background-color: #144F9E;
+
+  }
+}
+
+.menu ul{
+  padding: 0;
+  display: flex;
+  @media (max-width: 767px) {
+    flex-direction: column;
+    width: 100%;
+    right: 0;
+    margin-top: 60px;
+    position: absolute;
+  }
+}
+.menu ul li{
+  text-transform: lowercase;
+  padding: 17px 10px !important;
+  list-style-type: none;
+  margin: 10px;
+  margin-top: 5px !important;
+  margin-bottom: 0px !important;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffff;
+  transition: 0.4s ease-in-out;
+  @media (max-width: 767px) {
+    color: #fff;
+    font-size: 23px;
+    text-align: center;
+    padding: 8px 13px !important;
+    margin-top: 20px;
+    z-index: 1000;
+  }
+
+}
+.menu ul li:hover{
+  list-style-type: none;
+  margin: 10px;
+  display: inline-block;
+  background-color: #e7e5e5;
+  color:#144F9E ;
+}
+.btn-menu{
+  background-color: #144F9E;
+  padding: 5px 5px;
+  border: 1px solide #fff;
+  color: #FFF;
+  cursor: pointer;
+}
+.btn-menu-danger{
+  color: red;
+  font-weight: bold;
+  padding: 5px;
+  cursor: pointer;
+}
